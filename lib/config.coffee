@@ -74,3 +74,9 @@ module.exports =
       "(^|\\s)package\\s+(\\w+::)*{word}\\s*\\;"
     ]
     type: ["*.pm","*.pl"]
+
+  'Mason':
+    regex: [
+      "(^|\\s)<%(method|def)\\s+{word}*>"
+    ]
+    type: ["*.mi", "*.m"]
